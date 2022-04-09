@@ -184,6 +184,24 @@ background:orange;
 
 #profile-content {float: left;width: 835px;padding: 10px;background: white;}
 
-#frame-tambah a.tombol-action {color: white;text-decoration: none;}
+.tombol-action {background: #1e5474;font-size: 9px; padding: 7px 15px; border-radius: 3px; color: white;text-decoration: none; cursor: pointer; margin-right: 3px;}
+.tombol-action:hover{
+    background:orange
+}
 
-#frame-tambah {float: right;background: orange;padding: 5px 10px;border-radius: 3px;}
+#frame-tambah {margin-bottom: 10px; text-align: right;}
+
+.table-list {width: 100%;border-collapse: collapse;}
+
+.kolom-nomor {width: 20px;text-align: center;}
+
+.kiri {text-align: left;}
+
+.tengah {text-align: center;}
+
+.kanan {text-align: right;}
+
+.table-list tr.baris-title {background: #e6e6e6;}
+
+.table-list tr th,
+.table-list tr td{padding: 10px 7px;}
